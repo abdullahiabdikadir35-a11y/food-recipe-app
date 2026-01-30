@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./RecipeForm.css";
+import "./recipeForm.css";
 
 export default function RecipeForm({ onAddRecipe, apiUrl }) {
   const [formData, setFormData] = useState({
