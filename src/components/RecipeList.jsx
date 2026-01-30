@@ -1,5 +1,5 @@
 import RecipeCard from "./RecipeCard";
-import "./RecipeList.css";
+import "./recipeList.css";
 
 export default function RecipeList({ recipes, onDeleteRecipe, onUpdateRecipe }) {
   if (!recipes.length) {

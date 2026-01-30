@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import "./RecipeCard.css";
+import "./recipeCard.css";
 
 const API_URL = "http://localhost:4000";
 
