@@ -1,0 +1,13 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pancakes",
+      "time": 15,
+      "category": "Breakfast",
+      "image": "https://via.placeholder.com/600x400",
+      "instructions": "Mix ingredients and cook on a pan."
+    }
+  ]
+}
+
