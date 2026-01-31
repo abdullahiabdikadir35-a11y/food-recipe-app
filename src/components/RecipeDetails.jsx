@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import "./RecipeDetails.css";
+import "./recipeDetails.css";
 
 export default function RecipeDetails({ recipes, apiUrl, onDeleteRecipe }) {
   const { id } = useParams();
