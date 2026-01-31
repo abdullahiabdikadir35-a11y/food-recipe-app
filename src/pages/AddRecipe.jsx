@@ -1,5 +1,4 @@
 import RecipeForm from "../components/RecipeForm";
-import "./AddRecipe.css";
 
 export default function AddRecipe({ onAddRecipe, apiUrl }) {
   return (

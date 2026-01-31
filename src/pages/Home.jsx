@@ -1,5 +1,5 @@
 import RecipeList from "../components/RecipeList";
-import "./Home.css";
+
 
 export default function Home({ recipes, onDeleteRecipe, onUpdateRecipe }) {
   return (
