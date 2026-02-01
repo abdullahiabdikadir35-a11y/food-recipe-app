@@ -39,7 +39,7 @@ export default function App() {
   // ✅ state update after PATCH response
   function updateRecipe(updatedRecipe) {
     setRecipes((prev) =>
-      prev.map((r) => (r.id === updatedRecipe.id ? updatedRecipe : r))
+      prev.map((r) => (r.id === updatedRecipe.id ? updatedRecipe : r)),
     );
   }
 
