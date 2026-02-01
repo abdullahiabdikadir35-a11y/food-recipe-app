@@ -68,7 +68,7 @@ export default function RecipeCard({ recipe, onDeleteRecipe, onUpdateRecipe }) {
           <button className="btn" onClick={() => setIsEditing((v) => !v)}>
             {isEditing ? "Cancel" : "Edit Title"}
           </button>
-
+          
           <button className="btn danger" onClick={handleDelete}>
             Delete
           </button>
