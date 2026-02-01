@@ -1,13 +1,52 @@
 {
   "recipes": [
     {
-      "id": 1,
-      "title": "Pancakes",
-      "time": 15,
-      "category": "Breakfast",
-      "image": "https://via.placeholder.com/600x400",
-      "instructions": "Mix ingredients and cook on a pan."
+      "id": "b760",
+      "title": "pizza",
+      "time": 40,
+      "category": "dinner",
+      "image": "https://images.pexels.com/photos/13062440/pexels-photo-13062440.jpeg",
+      "instructions": "Ingredients (basic):\n\nPizza dough\n\nTomato sauce\n\nCheese (mozzarella)\n\nToppings (pepperoni, vegetables, etc.)\n\nOlive oil\n\nSteps\n\nPreheat Oven\n\nPreheat your oven to 220°C (425°F).\n\nPrepare Dough\n\nDivide dough into portions (for standard 12-inch pizzas, ~250g per portion).\n\nLightly flour your workspace.\n\nShape the Dough\n\nFlatten each portion with your hands or rolling pin.\n\nMake a small edge for the crust.\n\nAdd Sauce\n\nSpread tomato sauce evenly on the dough, leaving the edge free.\n\nAdd Cheese\n\nSprinkle grated mozzarella generously over the sauce.\n\nAdd Toppings\n\nPlace your toppings evenly (pepperoni, veggies, mushrooms, etc.).\n\nDrizzle Oil (Optional)\n\nLightly drizzle olive oil for extra flavor.\n\nBake the Pizza\n\nPlace pizza in the preheated oven.\n\nBake for 12–15 minutes until crust is golden and cheese is melted.\n\nCheck & Remove\n\nMake sure the crust is cooked and cheese is bubbling.\n\nRemove pizza from oven using a pizza peel or baking tray.\n\nCool Slightly & Slice\n\nLet pizza cool for 2–3 minutes.\n\nSlice into portions and serve."
+    },
+    {
+      "id": "cb74",
+      "title": "pancake",
+      "time": 25,
+      "category": "breakfast",
+      "image": "https://images.pexels.com/photos/6947255/pexels-photo-6947255.jpeg",
+      "instructions": "🧺 Ingredients\n\n1 cup flour\n\n1 tablespoon sugar\n\n1 teaspoon baking powder\n\n1 egg\n\n1 cup milk\n\n1 tablespoon melted butter or oil\n\nA pinch of salt"
+    },
+    {
+      "id": "4490",
+      "title": "spaghetti",
+      "time": 30,
+      "category": "lunch",
+      "image": "https://images.pexels.com/photos/34382330/pexels-photo-34382330.jpeg",
+      "instructions": "🧺 Ingredients\n\nSpaghetti pasta\n\nWater\n\nSalt\n\n2 tablespoons cooking oil (optional)\n\nFor simple sauce (optional):\n\n1 onion\n\n1 tomato sauce or fresh tomatoes\n\n1 tablespoon oil\n\nSalt\n\nSpices (optional)"
+    },
+    {
+      "id": "fa5b",
+      "title": "chicken curry",
+      "time": 30,
+      "category": "dinner",
+      "image": "https://images.pexels.com/photos/35158690/pexels-photo-35158690.jpeg",
+      "instructions": "🧺 Ingredients\n\n500g chicken (cut into pieces)\n\n1 onion (chopped)\n\n2 tomatoes (blended or chopped)\n\n2 tablespoons cooking oil\n\n2 cloves garlic (crushed)\n\n1 teaspoon ginger (optional)\n\n1 teaspoon curry powder\n\n½ teaspoon turmeric\n\nSalt (to taste)\n\n1 cup water\n\nFresh coriander (optional)\n\n👩‍🍳 Steps\nStep 1: Heat oil\n\nPut a pot on medium heat\n\nAdd oil and let it warm\n\nStep 2: Cook onions\n\nAdd onions\n\nCook until soft and slightly brown\n\nStep 3: Add garlic & ginger\n\nAdd garlic and ginger\n\nStir for 30 seconds until fragrant\n\nStep 4: Add spices\n\nAdd curry powder, turmeric, and salt\n\nStir for 1 minute\n\nStep 5: Add tomatoes\n\nAdd tomatoes\n\nCook until oil separates from the sauce (about 5 minutes)\n\nStep 6: Add chicken\n\nAdd chicken pieces\n\nStir to coat with sauce\n\nCook for 5 minutes\n\nStep 7: Add water\n\nAdd water\n\nCover and simmer for 20–25 minutes\n\nStep 8: Finish\n\nTaste and adjust salt\n\nGarnish with coriander\n\n🍽 Serve With\n\nRice\n\nChapati\n\nSpaghetti"
+    },
+    {
+      "id": "5e8f",
+      "title": "black forest cake",
+      "time": 60,
+      "category": "dessert",
+      "image": "https://images.pexels.com/photos/19543937/pexels-photo-19543937.jpeg",
+      "instructions": "🧺 Ingredients\nChocolate Cake\n\n1½ cups all-purpose flour\n\n1 cup sugar\n\n½ cup cocoa powder\n\n1 teaspoon baking powder\n\n½ teaspoon baking soda\n\n2 eggs\n\n1 cup milk\n\n½ cup vegetable oil or melted butter\n\n1 teaspoon vanilla essence\n\nFilling & Topping\n\nWhipping cream (cold)\n\nPowdered sugar (to taste)\n\nCherries (fresh or canned)\n\nChocolate shavings\n\n👩‍🍳 Steps\nStep 1: Preheat oven\n\nPreheat oven to 180°C (350°F)\n\nGrease and flour a cake pan\n\nStep 2: Mix dry ingredients\n\nIn a bowl mix:\n\nflour\n\nsugar\n\ncocoa powder\n\nbaking powder\n\nbaking soda\n\nStep 3: Add wet ingredients\n\nAdd:\n\neggs\n\nmilk\n\noil/butter\n\nvanilla\n\nMix until smooth (don’t overmix).\n\nStep 4: Bake\n\nPour batter into pan\n\nBake for 30–35 minutes\n\nLet cake cool completely\n\n🍒 Filling & Decoration\nStep 5: Whip cream\n\nBeat cold whipping cream\n\nAdd powdered sugar\n\nBeat until soft peaks form\n\nStep 6: Slice cake\n\nCut cake horizontally into 2 or 3 layers\n\nStep 7: Assemble\n\nSpread whipped cream on first layer\n\nAdd cherries\n\nPlace next layer and repeat\n\nStep 8: Final decoration\n\nCover whole cake with whipped cream\n\nSprinkle chocolate shavings\n\nAdd cherries on top 🍒\n\n🍽 Tips\n\nChill cake for 1–2 hours before serving\n\nUse cherry syrup to keep cake moist"
+    },
+    {
+      "id": "9158",
+      "title": "burger",
+      "time": 45,
+      "category": "lunch",
+      "image": "https://images.pexels.com/photos/11062000/pexels-photo-11062000.jpeg",
+      "instructions": "🧺 Ingredients\nBurger Patty\n\n500g minced beef (or chicken)\n\n1 small onion (finely chopped)\n\n1 egg\n\n1 teaspoon salt\n\n½ teaspoon black pepper\n\n1 teaspoon garlic powder (optional)\n\nBurger Assembly\n\nBurger buns\n\nLettuce\n\nTomato slices\n\nCheese slices\n\nKetchup / mayonnaise\n\nCooking oil\n\n👩‍🍳 Steps\nStep 1: Make the patty\n\nPut minced meat in a bowl\n\nAdd onion, egg, salt, pepper, garlic powder\n\nMix well\n\nStep 2: Shape patties\n\nDivide mixture into round flat patties\n\nDon’t make them too thick\n\nStep 3: Cook patties\n\nHeat oil in a pan (medium heat)\n\nCook patties 3–5 minutes per side\n\nAdd cheese on top during last minute (optional)\n\nStep 4: Toast buns\n\nLightly toast burger buns in a pan or oven\n\nStep 5: Assemble burger\n\nBottom bun → sauce → lettuce → patty → tomato → cheese → sauce → top bun\n\n🍽 Serve With\n\nFries 🍟\n\nColeslaw\n\nCold drink 🥤"
     }
   ]
 }
-
