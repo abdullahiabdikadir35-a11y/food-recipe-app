@@ -1,6 +1,6 @@
 .details {
-  background: white;
-  border: 1px solid #e6e6e6;
+  background: antiquewhite;
+  border: 1px solid #d4b483;
   border-radius: 14px;
   padding: 14px;
 }
@@ -14,7 +14,7 @@
 
 .back {
   text-decoration: none;
-  color: #111827;
+  color: #5d4037;
 }
 
 .details__img {
@@ -32,29 +32,29 @@
 
 .details__meta {
   margin: 0 0 14px 0;
-  color: #475569;
+  color: #795548;
 }
 
 .details__text {
-  color: #111827;
+  color: #5d4037;
   line-height: 1.5;
 }
 
 .detailsStatus {
   padding: 12px 14px;
-  background: #fff;
-  border: 1px solid #e6e6e6;
+  background: #efebe9;
+  border: 1px solid #d4b483;
   border-radius: 10px;
 }
 
 .detailsStatus.error {
-  border-color: #ffb3b3;
-  background: #fff4f4;
+  border-color: #c62828;
+  background: #ffebee;
 }
 
 .danger {
-  border: 1px solid #ffb3b3;
-  background: #fff4f4;
+  border: 1px solid #c62828;
+  background: #ffebee;
   padding: 8px 10px;
   border-radius: 10px;
   cursor: pointer;

@@ -1,6 +1,6 @@
 .form {
-  background: white;
-  border: 1px solid #e6e6e6;
+  background: antiquewhite;
+  border: 1px solid #d4b483;
   border-radius: 14px;
   padding: 14px;
   display: grid;
@@ -11,13 +11,13 @@
   display: grid;
   gap: 6px;
   font-size: 14px;
-  color: #111827;
+  color: #5d4037;
 }
 
 .field {
   padding: 10px 12px;
   border-radius: 10px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #a1887f;
   font-size: 14px;
 }
 
@@ -39,9 +39,9 @@
 }
 
 .submit {
-  border: 1px solid #111827;
-  background: #111827;
-  color: white;
+  border: 1px solid #5d4037;
+  background: #5d4037;
+  color: antiquewhite;
   padding: 10px 12px;
   border-radius: 10px;
   cursor: pointer;
