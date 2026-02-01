@@ -1,0 +1,26 @@
+about__title {
+  margin: 0 0 8px 0;
+}
+
+.about__text {
+  background:white;
+  border: 1px solid #e6e6e6;
+  border-radius: 14px;
+  padding: 14px;
+  line-height: 1.5;
+}
+body {
+    background-color:antiquewhite;
+    
+}
+
+.about__image {
+  width: 100%;          /* image fits container */
+  max-width: 500px;     /* LIMITS how big it can get */
+  height: auto;         /* keeps proportions */
+  object-fit: contain;  /* PREVENTS zoom/cropping */
+  border-radius: 8px;
+  margin: 1.5rem auto;
+  display: block;
+}
+
