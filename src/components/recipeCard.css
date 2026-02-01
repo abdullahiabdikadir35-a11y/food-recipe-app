@@ -1,6 +1,6 @@
 .card {
-  background: white;
-  border: 1px solid #e6e6e6;
+  background: antiquewhite;
+  border: 1px solid #d4b483;
   border-radius: 14px;
   overflow: hidden;
 }
@@ -22,7 +22,7 @@
 }
 
 .card__link {
-  color: #111;
+  color: #5d4037;
   text-decoration: none;
 }
 
@@ -32,7 +32,7 @@
 
 .card__meta {
   margin: 0 0 10px 0;
-  color: #475569;
+  color: #795548;
   font-size: 14px;
 }
 
@@ -42,23 +42,23 @@
 }
 
 .btn {
-  border: 1px solid #d1d5db;
-  background: #fff;
+  border: 1px solid #a1887f;
+  background: #efebe9;
   padding: 8px 10px;
   border-radius: 10px;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #f3f4f6;
+  background: #d7ccc8;
 }
 
 .btn.danger {
-  border-color: #ffb3b3;
+  border-color: #c62828;
 }
 
 .btn.danger:hover {
-  background: #fff4f4;
+  background: #ffebee;
 }
 
 .editRow {
@@ -72,5 +72,5 @@
   width: 100%;
   padding: 8px 10px;
   border-radius: 10px;
-  border: 1px solid #d1d5db;
+  border: 1px solid #a1887f;
 }
