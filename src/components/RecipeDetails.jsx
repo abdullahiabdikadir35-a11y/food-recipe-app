@@ -6,10 +6,11 @@ export default function RecipeDetails({ recipes, apiUrl, onDeleteRecipe }) {
   const { id } = useParams();
   const navigate = useNavigate();
 
-  const numericId = Number(id);
+  const routeId = id; // keep as string
+
   const fromState = useMemo(
-    () => recipes.find((r) => r.id === numericId),
-    [recipes, numericId]
+    () => recipes.find((r) => String(r.id) === routeId),
+    [recipes, routeId]
   );
 
   const [recipe, setRecipe] = useState(fromState || null);
@@ -23,7 +24,7 @@ export default function RecipeDetails({ recipes, apiUrl, onDeleteRecipe }) {
     setLoading(true);
     setError("");
 
-    fetch(`${apiUrl}/recipes/${numericId}`)
+    fetch(`${apiUrl}/recipes/${routeId}`)
       .then((r) => {
         if (!r.ok) throw new Error("Recipe not found");
         return r.json();
@@ -31,11 +32,11 @@ export default function RecipeDetails({ recipes, apiUrl, onDeleteRecipe }) {
       .then((data) => setRecipe(data))
       .catch((err) => setError(err.message))
       .finally(() => setLoading(false));
-  }, [apiUrl, numericId, fromState]);
+  }, [apiUrl, routeId, fromState]);
 
   function handleDelete() {
-    fetch(`${apiUrl}/recipes/${numericId}`, { method: "DELETE" }).then(() => {
-      onDeleteRecipe(numericId);
+    fetch(`${apiUrl}/recipes/${routeId}`, { method: "DELETE" }).then(() => {
+      onDeleteRecipe(routeId);
       navigate("/");
     });
   }
@@ -47,7 +48,7 @@ export default function RecipeDetails({ recipes, apiUrl, onDeleteRecipe }) {
   return (
     <div className="details">
       <div className="details__top">
-        <Link className="back" to="/">
+        <Link className="back" to="← Back">
           ← Back
         </Link>
         <button className="danger" onClick={handleDelete}>

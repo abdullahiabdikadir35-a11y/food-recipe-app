@@ -16,7 +16,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
 
-  // ✅ GET (load all recipes)
+  //  GET (load all recipes)
   useEffect(() => {
     setLoading(true);
     setError("");
@@ -31,19 +31,19 @@ export default function App() {
       .finally(() => setLoading(false));
   }, []);
 
-  // ✅ REQUIRED: state update after POST response
+  // state update after POST response
   function addRecipe(newRecipe) {
     setRecipes((prev) => [...prev, newRecipe]);
   }
 
-  // ✅ state update after PATCH response
+  // state update after PATCH response
   function updateRecipe(updatedRecipe) {
     setRecipes((prev) =>
       prev.map((r) => (r.id === updatedRecipe.id ? updatedRecipe : r)),
     );
   }
 
-  // ✅ state update after DELETE
+  // state update after DELETE
   function deleteRecipe(id) {
     setRecipes((prev) => prev.filter((r) => r.id !== id));
   }
